@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #06021A;
+    color: white;
+}
+
+nav {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.logo-lista {
+    display: flex;
+    gap: 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+main .mainBanner {
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/banner\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .mainBanner h1 {
+    text-align: center;
+    font-size: 88px;
+    font-weight: 200;
+    padding: 210px 0 0 0;
+
+}
+
+main .mainBanner p {
+    text-align:center;
+    font-size: 40px;
+}
+
+main .mainBanner span {
+    font-weight: bold;
+}
+
+.secaoVitrine {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.cardSecaoVitrine p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.cardSecaoVitrine {
+    overflow: hidden;
+    position: relative;
+}
+
+.cardSecaoVitrine img {
+    transition: transform 0.5s ease;
+}
+
+.cardSecaoVitrine img:hover {
+    transform: scale(1.1);
+}
+
+.secaoSobre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 200px 10px;
+}
+
+.secaoSobre h2 {
+    font-size: 64px;
+    font-weight: 100;
+}
+
+.secaoSobre p {
+    width: 500px;
+    height: 431px;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 50px;
+    opacity: 0.7;
+}
+
+.secaoBeneficios {
+    background-image: url('../img/imagemFundo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secaoBeneficios h2 {
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.secaoBeneficios .beneficios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chamada {
+    text-align: left;
+    width: 300px;
+    height: 280px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.chamada img {
+    width: 110px;
+}
+
+.chamada h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.chamada p {
+    width: 250px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.conquistas {
+    background-image: url(../img/elementoGrafico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: 0.534px 0.534px 2.138px 0px rgba(255, 255, 255, 0.30) inset, -0.534px -0.534px 1.069px 0px rgba(255, 255, 255, 0.50) inset;
+    backdrop-filter: blur(12.691625595092773px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo p {
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.rodape {
+    display: flex;
+    background-color: #19104B;
+    height: 110px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 70px;
+    align-items: center;
+}
+
+.rodape .esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rodape .esquerda .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape .esquerda img {
+    width: 30px;
+}
+
+.rodape img {
+    width: 100px;
+    padding-right: 30px;
+}
+
+.produtosIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.produtosIntro h1 {
+    font-size: 48px;
+    font-weight: 500;
+    width: 1224px;
+    text-align: center;
+}
+
+.produtosIntro p {
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 60px 0px 60px;
+}
+
+.produtos .produtosTitulo {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.produtos .produtosPrg {
+    font-size: 35px;
+    font-weight: 200;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.produtos .grupoCardProdutos {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    border: red;
+}
+
+.produtos .cardProdutos {
+    width: 291px;
+    height: 440px;
+    margin-top: 100px;
+}
+
+
+.produtos .cardProdutos:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.produtos .cardProdutos img {
+    width: 100%;
+    height: auto;
+}
+
+.produtosDescricao {
+    background-color: #110428;
+    padding: 20px 8px 20px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.eventos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    gap: 50px;
+}
